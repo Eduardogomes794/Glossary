@@ -28,6 +28,7 @@ h1{
     letter-spacing: 2px;
     text-decoration: none;
     font-size: 18px;
+    text-transform: lowercase;
 }
 .descricao{
     background-color: white;
