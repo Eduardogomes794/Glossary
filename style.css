@@ -9,7 +9,7 @@ body{
     font-family: varsity;
 }
 h1{
-    margin-left: 17%;
+    margin-left: 12%;
     padding-right: 250px;
     font-family: Arial;
     font-size: 50px;
@@ -35,6 +35,7 @@ h1{
     background-color: white;
     padding: 15px;
     border-radius: 8px;
+    border: solid;
 }
 a{
     text-decoration: none;
@@ -42,7 +43,33 @@ a{
     text-transform: uppercase;
     
 }
+
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 10%;
+    font-family: varsity;
+    text-transform: uppercase;
+    padding: 8px;
+    position: fixed;
+  }
 @font-face{
     font-family: varsity;
     src: url(./varsity_regular.ttf);
+}
+
+@media (max-width: 700px){
+    h1{
+        margin-left: 3%;
+        font-size: 21px;
+    }
+    .palavra{
+        margin-top: -65%;
+    }
+    .descricao{
+        
+    }
+    #segundo{
+        margin-bottom: 40%;
+    }
 }
