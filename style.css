@@ -6,9 +6,16 @@ body{
     flex-wrap: wrap;
     gap: 150px;
     background-color: aqua;
+    font-family: varsity;
 }
 h1{
-    margin-left: 25%;
+    margin-left: 12%;
+    padding-right: 250px;
+    font-family: Arial;
+    font-size: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px;
 }
 .palavra{
     color: white;
@@ -18,4 +25,22 @@ h1{
     background-color: black;
     padding: 4px;
     width: fit-content;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.descricao{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: #000fff;
+    text-transform: uppercase;
+    
+}
+@font-face{
+    font-family: varsity;
+    src: url(./varsity_regular.ttf);
 }
